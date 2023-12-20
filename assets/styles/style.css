@@ -5,24 +5,30 @@
   font-family: "Nunito", sans-serif;
 }
 
-.container-principal {
-  width: 100vw;
+.box-color {
+  display: block;
+  position: absolute;
+  margin-left: 50%;
+  width: 50%;
   height: 100vh;
-}
-
-.container-left {
-  display: flex;
+  clip-path: inset(0% 0% 0% 0% round 0% 0.5% 0% 25%);
+  background: rgb(180, 200, 180);
+  z-index: -1;
 }
 
 header {
-  margin: 23px 115px 0 118px;
-  position: absolute;
+  display: flex;
+  gap: 70px;
+  padding-top: 30px;
+}
+
+header img {
+  margin-left: 130px;
 }
 
 nav {
-  justify-content: end;
-  margin: 20px 48px 0 410px;
-  display: inline-block;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .nav {
@@ -66,6 +72,10 @@ nav {
   background: #daa520;
   border: none;
   color: white;
+}
+
+.container-left {
+  display: flex;
 }
 
 section {
@@ -130,15 +140,4 @@ h1 {
   height: 382px;
   position: absolute;
   margin: 320px 0 0 522px;
-}
-
-.box-color {
-  display: block;
-  position: absolute;
-  margin-left: 50%;
-  width: 50%;
-  height: 100vh;
-  clip-path: inset(0% 0% 0% 0% round 0% 0.5% 0% 25%);
-  background: rgb(180, 200, 180);
-  z-index: -1;
 }
