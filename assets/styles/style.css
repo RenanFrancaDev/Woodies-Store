@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+.container-principal {
+  width: 100vw;
+  height: 100vh;
+}
+
+.container-left {
+  display: flex;
+}
+
+header {
+  margin: 23px 115px 0 118px;
+  position: absolute;
+}
+
+nav {
+  justify-content: end;
+  margin: 20px 48px 0 410px;
+  display: inline-block;
+}
+
+.nav {
+  margin-right: 48px;
+  font-weight: 600;
+  font-size: 20px;
+  color: rgba(34, 34, 34, 0.7);
+  cursor: pointer;
+}
+
+.nav:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.home {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 22px;
+  color: #daa520;
+}
+
+.button-nav {
+  width: 137px;
+  height: 40px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #3e3f43;
+  border-radius: 5px;
+  border: 1px solid black;
+  background: transparent;
+  cursor: pointer;
+}
+
+.button-nav:active {
+  opacity: 0.5;
+}
+
+.button-nav:hover {
+  background: #daa520;
+  border: none;
+  color: white;
+}
+
+section {
+  margin: 136px 0 0 130px;
+}
+
+p {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 49px;
+  color: #3e3f43;
+  width: 504px;
+  height: 98px;
+}
+
+span {
+  font-weight: 700;
+}
+
+h1 {
+  width: 504px;
+  height: 196px;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 98px;
+  color: #313235;
+  margin: 16px 0;
+}
+
+.button-orange {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+  width: 175px;
+  height: 50px;
+  background: #daa520;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-orange:hover {
+  opacity: 0.8;
+}
+
+.button-orange:active {
+  opacity: 0.4;
+}
+
+.mesa {
+  position: absolute;
+  margin-top: 85px;
+  margin-left: 622px;
+  z-index: 1;
+  width: 568px;
+  height: 577px;
+}
+
+.img-25 {
+  width: 382px;
+  height: 382px;
+  position: absolute;
+  margin: 320px 0 0 522px;
+}
+
+.box-color {
+  display: block;
+  position: absolute;
+  margin-left: 50%;
+  width: 50%;
+  height: 100vh;
+  clip-path: inset(0% 0% 0% 0% round 0% 0.5% 0% 25%);
+  background: rgb(180, 200, 180);
+  z-index: -1;
+}
